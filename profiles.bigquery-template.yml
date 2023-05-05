@@ -3,8 +3,8 @@
 wide_world_importers_dbt:
   outputs:
     dev:
-      project: zzz
-      keyfile: zzz
+      project: data-warehouse-course-385716
+      keyfile: C:\dell\project\data_warehouse_course\conf\data-warehouse-course-385716-38a110b7e838.json
       dataset: wide_world_importers_dwh
       location: asia-southeast1
       type: bigquery
