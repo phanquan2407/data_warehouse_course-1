@@ -6,4 +6,4 @@ SELECT
   cast(stock_item_id as int) product_key,
   cast(so.customer_id as int) customer_key
 FROM `vit-lam-data.wide_world_importers.sales__order_lines` sol 
-LEFT JOIN `vit-lam-data.wide_world_importers.sales__orders` so on cast(ol.order_id as int) = cast(so.order_id as int)
+LEFT JOIN `vit-lam-data.wide_world_importers.sales__orders` so on cast(sol.order_id as int) = cast(so.order_id as int)
