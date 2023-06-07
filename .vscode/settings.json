@@ -114,5 +114,39 @@
 
     "scm.defaultViewMode": "tree",
     "extensions.ignoreRecommendations": true,
-    "sqltools.connections": [],
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "fs-reports.cybhstjgn0kj.ap-southeast-1.rds.amazonaws.com",
+            "port": 3306,
+            "driver": "MariaDB",
+            "name": "fs-reports.cybhstjgn0kj.ap-southeast-1.rds.amazonaws.com",
+            "username": "quanph",
+            "database": "fs_reports"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "ar6-beta-slave2.cybhstjgn0kj.ap-southeast-1.rds.amazonaws.com",
+            "port": 3306,
+            "driver": "MariaDB",
+            "name": "ar6-beta-slave2.cybhstjgn0kj.ap-southeast-1.rds.amazonaws.com",
+            "database": "alireviews",
+            "username": "quanph"
+        },
+        {
+            "previewLimit": 50,
+            "server": "socialhead-tracking.cybhstjgn0kj.ap-southeast-1.rds.amazonaws.com",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "socialhead-tracking.cybhstjgn0kj.ap-southeast-1.rds.amazonaws.com",
+            "username": "quanph",
+            "database": "shtracking"
+        }
+    ],
 }
